@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96044B811E730D6400E264F3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96044B801E730D6400E264F3 /* TableViewController.swift */; };
+		96044B831E7324F400E264F3 /* TableCustumizedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96044B821E7324F400E264F3 /* TableCustumizedViewController.swift */; };
+		96044B851E7329D700E264F3 /* TableTwoSecctionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96044B841E7329D700E264F3 /* TableTwoSecctionViewController.swift */; };
+		9625EF271E71F35500D2EAA2 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625EF261E71F35500D2EAA2 /* TimerViewController.swift */; };
+		9625EF291E72091500D2EAA2 /* PickerDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625EF281E72091500D2EAA2 /* PickerDataViewController.swift */; };
+		9625EF2B1E72254F00D2EAA2 /* DataPicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625EF2A1E72254F00D2EAA2 /* DataPicketViewController.swift */; };
 		96E6658F1E7045F30019825E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E6658E1E7045F30019825E /* AppDelegate.swift */; };
 		96E665911E7045F30019825E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E665901E7045F30019825E /* ViewController.swift */; };
 		96E665941E7045F30019825E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E665921E7045F30019825E /* Main.storyboard */; };
@@ -16,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96044B801E730D6400E264F3 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		96044B821E7324F400E264F3 /* TableCustumizedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableCustumizedViewController.swift; sourceTree = "<group>"; };
+		96044B841E7329D700E264F3 /* TableTwoSecctionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableTwoSecctionViewController.swift; sourceTree = "<group>"; };
+		9625EF261E71F35500D2EAA2 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		9625EF281E72091500D2EAA2 /* PickerDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerDataViewController.swift; sourceTree = "<group>"; };
+		9625EF2A1E72254F00D2EAA2 /* DataPicketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataPicketViewController.swift; sourceTree = "<group>"; };
 		96E6658B1E7045F30019825E /* Ejemplo_UI_01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ejemplo_UI_01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E6658E1E7045F30019825E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96E665901E7045F30019825E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +75,12 @@
 				96E665971E7045F30019825E /* LaunchScreen.storyboard */,
 				96E6659A1E7045F30019825E /* Info.plist */,
 				96E665A01E70B0050019825E /* BotonViewController.swift */,
+				9625EF261E71F35500D2EAA2 /* TimerViewController.swift */,
+				9625EF281E72091500D2EAA2 /* PickerDataViewController.swift */,
+				9625EF2A1E72254F00D2EAA2 /* DataPicketViewController.swift */,
+				96044B801E730D6400E264F3 /* TableViewController.swift */,
+				96044B821E7324F400E264F3 /* TableCustumizedViewController.swift */,
+				96044B841E7329D700E264F3 /* TableTwoSecctionViewController.swift */,
 			);
 			path = Ejemplo_UI_01;
 			sourceTree = "<group>";
@@ -138,9 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9625EF291E72091500D2EAA2 /* PickerDataViewController.swift in Sources */,
+				96044B811E730D6400E264F3 /* TableViewController.swift in Sources */,
+				96044B831E7324F400E264F3 /* TableCustumizedViewController.swift in Sources */,
+				9625EF271E71F35500D2EAA2 /* TimerViewController.swift in Sources */,
+				9625EF2B1E72254F00D2EAA2 /* DataPicketViewController.swift in Sources */,
 				96E665911E7045F30019825E /* ViewController.swift in Sources */,
 				96E665A11E70B0050019825E /* BotonViewController.swift in Sources */,
 				96E6658F1E7045F30019825E /* AppDelegate.swift in Sources */,
+				96044B851E7329D700E264F3 /* TableTwoSecctionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +314,7 @@
 				96E6659F1E7045F30019825E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

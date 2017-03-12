@@ -10,10 +10,15 @@ import Foundation
 import UIKit
 
 
-class BotonViewController: UIViewController {
+class BotonViewController: UIViewController , UITextFieldDelegate{
     
     @IBOutlet var LabelHola: UILabel!
     @IBOutlet var TextIntroducir: UITextField!
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        view.endEditing(true);
+        //cuando tocamos por fuera del keyword se esconde
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -25,9 +30,17 @@ class BotonViewController: UIViewController {
     }
     
 
+
     @IBAction func touchBoton(sender: UIButton) {
         
+         TextIntroducir.resignFirstResponder();
+        //  resigna ser el first responder deja de interactuar con el teclado
+        
+    }
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
         LabelHola.text = "Hola "+TextIntroducir.text!;
+        TextIntroducir.resignFirstResponder();
+        return false;
     }
 
     
