@@ -15,6 +15,7 @@ class TableCustumizedViewController : UIViewController , UITableViewDataSource {
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return  equipos.count;
     }
+    
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("celda1")
          let (equipo,pais) = equipos[indexPath.row]

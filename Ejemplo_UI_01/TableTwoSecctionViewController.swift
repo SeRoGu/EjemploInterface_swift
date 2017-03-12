@@ -14,6 +14,7 @@ class TableTwoSecctionViewController : UIViewController , UITableViewDataSource 
     
     let jugadores = [("Messi" ,"10"), ("Cristiano" ,"10"), ("Benzema" ,"9"), ("Higuain" ,"9"), ("Aguero" ,"9"), ("Ronaldiño" ,"10"), ("Dani alvez" ,"10"), ("Eto" ,"10") , ("Basquez" ,"10"), ("Adriano" ,"10"), ("Ibra" ,"9"), ("Sergio Ramos" ,"2") ]
     
+    
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return 2;
     }

@@ -11,6 +11,7 @@ import UIKit
 
 class TableViewController : UIViewController , UITableViewDataSource {
     let animales = ["Tigre", "Girafa", "Caballo" , "Paloma" ,"Pajaro" , "Raton" , "Vaca", "Perro", "Leon" ]
+   
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return animales.count;
     }

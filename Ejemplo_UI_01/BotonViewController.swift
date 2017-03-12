@@ -19,6 +19,7 @@ class BotonViewController: UIViewController , UITextFieldDelegate{
         //cuando tocamos por fuera del keyword se esconde
         
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

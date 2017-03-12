@@ -11,6 +11,7 @@ import UIKit
 
 class DataPicketViewController : UIViewController , UIPickerViewDataSource , UIPickerViewDelegate{
     let animales = ["Tigre", "Girafa", "Caballo" , "Paloma" ,"Pajaro" , "Raton" , "Vaca", "Perro", "Leon" ]
+   
     func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
         return 1;
     }
